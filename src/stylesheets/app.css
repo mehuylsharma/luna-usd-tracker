@@ -1,0 +1,184 @@
+@import url("./fonts.css");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow";
+  background-color: #041C32;
+}
+
+.app {
+  margin-top: 2%;
+  color: #ECB365;
+}
+
+.app .btn {
+  background-color: #064663;
+  color: white;
+  font-family: "Barlow";
+  font-size: 20px;
+  height: 100%;
+  border: 0px solid #ECB365;
+  border-radius: 5px;
+  -webkit-transition: linear 0.15s;
+  transition: linear 0.15s;
+}
+
+.app .btn:hover {
+  color: #ECB365;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 0 0 5px #ECB365;
+          box-shadow: 0 0 5px #ECB365;
+  text-shadow: 0 0 5px #ECB365;
+}
+
+.app .btn:focus {
+  background-color: #ECB365;
+  color: #064663;
+}
+
+.app .btn:focus:hover {
+  color: #064663;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 0 0 5px #064663;
+          box-shadow: 0 0 5px #064663;
+  text-shadow: 0 0 5px #064663;
+}
+
+.app .header {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #04293A;
+  border: 3px solid #064663;
+  border-radius: 20px;
+}
+
+.app .header .symbol {
+  -webkit-box-flex: 7;
+      -ms-flex-positive: 7;
+          flex-grow: 7;
+  border-right: 2px solid #24415d;
+}
+
+.app .header div {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 5%;
+}
+
+.app .header div .upper-text {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #c99449;
+}
+
+.app .info {
+  margin-top: 3.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.app .info .chart {
+  width: 80%;
+}
+
+.app .info .chart .graph {
+  max-height: 450px;
+  max-width: 100%;
+}
+
+.app .info .chart .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 100%;
+  height: 40px;
+}
+
+.app .info .chart .btns .btn {
+  margin: 1% 2%;
+}
+
+.app .info .sidebar {
+  border-radius: 20px;
+  border-style: ridge;
+  border: 3px solid #064663;
+  background-color: #04293A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 500px;
+  width: 30%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app .info .sidebar .info-prop {
+  border-bottom: 2px solid #24415d;
+  margin-bottom: 25px;
+  border-bottom-style: ridge;
+  font-size: 24px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  color: #c99449;
+}
+
+.app .info .sidebar .info-prop:first-child {
+  margin-top: 25px;
+}
+
+.app .info .sidebar .info-prop:last-child {
+  border: none;
+}
+
+.app .info .sidebar .info-prop .info-value {
+  font-size: 22px;
+  font-weight: normal;
+  font-weight: bold;
+  color: #ECB365;
+}
+/*# sourceMappingURL=app.css.map */
