@@ -13,7 +13,6 @@ import {
 } from 'chart.js';
 import { chartDays } from '../data/labels';
 import { ChartData } from '../data/endpoints';
-
 export default function Chart() {
   ChartJS.register(
     CategoryScale,
